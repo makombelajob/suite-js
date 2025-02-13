@@ -5,7 +5,7 @@ function devinerNombre() {
     while (userGuess !== randomNombre) {
         let userNombre = Number(prompt("Devinez"));
 
-        if (userNombre <= 0 || userNombre > 100 || isNaN(userNombre)) {
+        if (userNombre <= 0 || userNombre > 10 || isNaN(userNombre)) {
             console.log("Entrer un N° valid ");
             continue;
         }

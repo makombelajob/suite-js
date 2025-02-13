@@ -1,7 +1,7 @@
-let nombre = Number(prompt("Entrer un nombre :"));
+let nombre = prompt("Entrer un nombre :");
 function  compterNombre(){
     let somme = 0;
-    let compter = nombre.toString();
+    let compter = nombre;
     for ( let compte of compter){
         somme += Number(compte);
     }
