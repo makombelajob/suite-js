@@ -1,0 +1,25 @@
+:root {
+    font-size :  10px;
+}
+h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+table {
+    background-color: rgba(22, 96, 145, 0.466);
+    border-collapse: collapse;
+    margin-bottom : 2rem;
+    tr {
+        td {
+        border : 1px solid black;
+        padding : 1rem;
+        width : 30px;
+        height: 30px;    
+        text-align: center;    
+        }
+    }
+    .diagonal {
+        background-color : rgb(19, 21, 167);
+        color : white;
+    }
+}
